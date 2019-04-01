@@ -15,7 +15,77 @@ body,html{
     color: black;
 }
 .subjudul{
-    
+    font-family: langdon;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+}
+.section2{
+    padding:50px 50px;
+    background: #d2d2d2;
+}
+.col-kiri{
+    background: #d2d2d2;
+}
+.col-kanan{
+    background: #d2d2d2;
+}
+.kolom1{
+    font-family: century gothic;
+    font-size: 35px;
+    color: black;
+}
+.kolom2{
+    font-family: calibri;
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+}
+.section3{
+    padding:50px 50px;
+    background: #d2d2d2;
+}
+.col-kiri1{
+    background: white;
+    text-align: center;
+    font-family: calibri;
+    font-size: 25px;
+    color: black;
+}
+.isicol-kiri1{
+    background: white;
+    text-align: center;
+    font-family: calibri;
+    font-size: 18px;
+    color: black;
+}
+.col-tengah2{
+    background: black;
+    text-align: center;
+    font-family: calibri;
+    font-size: 25px;
+    color: white;
+}
+.isicol-tengah2{
+    background: black;
+    text-align: center;
+    font-family: calibri;
+    font-size: 18px;
+    color: white;
+}
+.col-kanan3{
+    background: white;
+    text-align: center;
+    font-family: calibri;
+    font-size: 25px;
+    color: black;
+}
+.isicol-kanan3{
+    background: white;
+    text-align: center;
+    font-family: calibri;
+    font-size: 18px;
+    color: black;
 }
 .isi{
     
