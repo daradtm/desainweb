@@ -42,6 +42,7 @@ body,html{
     font-style: italic;
 }
 .section3{
+    min-height: 300px;
     padding:50px 50px;
     background: #d2d2d2;
 }
@@ -86,6 +87,13 @@ body,html{
     font-family: calibri;
     font-size: 18px;
     color: black;
+}
+.link{
+    padding: 10px 15px;
+    color: black;
+}
+.link:hover{
+    background: lavender;
 }
 .isi{
     

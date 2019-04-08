@@ -12,9 +12,24 @@
     </head>
     <body>
         <!--navbar-->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" href="#home">Home</a>
+                        <a class="link" href="#profile">Profile</a>
+                        <a class="link" href="#faq">FAQ</a>
+                        <a class="link" href="http://instagram/dagelan">Link menuju dagelan</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         
         <!--section 1-->
-        <section class="section1">
+        <section class="section1" id="home">
             <img src="img/logo.png">
             <br/>
             <h1 class="judul">
@@ -26,7 +41,7 @@
                 
         </section>
         <!--section 2-->
-        <section class="section2">
+        <section class="section2" id="profile">
             <div class="container">
                 <div class="row">
                     <div class="col-md-9 col-kiri">
@@ -44,7 +59,7 @@
             </div>
         </section>        
         <!--section 3-->
-        <section class="section3">
+        <section class="section3" id="faq">
             <div class="container">
                 <div class="row">
                 <div class="col col-kiri1">
@@ -73,5 +88,9 @@
             </div>
         </section>
                 
+    <script type="text/javascript" src="js/wow.min.js"></script>        
+        <script type="text/javascript">
+         new WOW().init();
+        </script>
     </body>
 </html> 
