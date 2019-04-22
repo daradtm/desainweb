@@ -3,98 +3,131 @@ body,html{
     margin:0 auto;
 }   
 .section1{
-    background: url(../img/maxresdefault.jpg);
+    background: url(../img/cover.png);
+    background-size: cover;
     width: 100%;
     height: 120%;
     text-align: center;
 }
 .judul{
-    font-family: langdon;
-    font-weight: 500;
-    font-size: 40px;
-    color: black;
+    font-family: tw cen mt;
+    font-weight: bold;
+    font-size: 25px;
+    color: #805f8e;
 }
 .subjudul{
-    font-family: langdon;
+    font-family: Poppins;
     font-weight: 500;
-    font-size: 40px;
-    color: black;
+    font-size: 60px;
+    color: white;
 }
 .section2{
     padding:50px 50px;
-    background: #d2d2d2;
+    background: #ffffff;
+}
+.about{
+    font-family: tw cen mt;
+    font-weight: bold;
+    font-size: 20px;
+    color: #805f8e;
+    text-align: center;
+}
+.intro{
+    font-family: Poppins;
+    font-size: 25px;
+    color: #313131;
+    font-weight: bold;
+    text-align: center;
 }
 .col-kiri{
-    background: #d2d2d2;
+    background: #ffffff;
+    text-align: right;
 }
 .col-kanan{
-    background: #d2d2d2;
+    background: #ffffff;
 }
 .kolom1{
-    font-family: century gothic;
-    font-size: 35px;
-    color: black;
+    font-family: lora;
+    font-size: 18px;
+    color: #313131;
+    text-align: right;
+    padding: 0px 30px;
+    line-height: 1.4;
 }
-.kolom2{
-    font-family: calibri;
+.kolom3{
+    font-family: tw cen mt;
     font-size: 20px;
-    color: black;
-    font-style: italic;
+    color: #313131;
+    font-weight: bold;
+}
+.kolom4{
+    font-family: poppins;
+    font-size: 15px;
+    color: #313131;
 }
 .section3{
     min-height: 300px;
     padding:50px 50px;
-    background: #d2d2d2;
+    background: #d6d6f0;
 }
-.col-kiri1{
-    background: white;
+.kolom3-1{
+    background: #d6d6f0;
     text-align: center;
-    font-family: calibri;
-    font-size: 25px;
+    font-family: lora;
+    font-size: 15px;
     color: black;
-}
-.isicol-kiri1{
-    background: white;
-    text-align: center;
-    font-family: calibri;
-    font-size: 18px;
-    color: black;
-}
-.col-tengah2{
-    background: black;
-    text-align: center;
-    font-family: calibri;
-    font-size: 25px;
-    color: white;
-}
-.isicol-tengah2{
-    background: black;
-    text-align: center;
-    font-family: calibri;
-    font-size: 18px;
-    color: white;
-}
-.col-kanan3{
-    background: white;
-    text-align: center;
-    font-family: calibri;
-    font-size: 25px;
-    color: black;
-}
-.isicol-kanan3{
-    background: white;
-    text-align: center;
-    font-family: calibri;
-    font-size: 18px;
-    color: black;
+    font-weight: bold;
+    padding: 7px 0px;
 }
 .link{
-    padding: 10px 15px;
+    padding: 5px 15px;
     color: black;
 }
 .link:hover{
-    background: lavender;
+    background: #805f8e;
+    color: #ffffff;
 }
 .isi{
-    
+    font-family: lora;
+    font-size: 20px;
+    color: #313131;
+    text-align: center;
+}
+.section4{
+    padding: 50px 0px;
+    background: #441b39;
+}
+.contact{
+    font-family: tw cen mt;
+    font-weight: bold;
+    font-size: 20px;
+    color: #bb83a8;
+    text-align: center;
+}
+.below{
+    font-family: Poppins;
+    font-size: 25px;
+    color: #d6d6f0;
+    font-weight: bold;
+    text-align: center;
+}
+.kolom4-1{
+    text-align: center;
+    font-family: poppins;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 8px 0px;
+}
+.isikolom4-1{
+    text-align: center;
+    font-family: tw cen mt;
+    font-size: 15px;
+    color: #d6d6f0;
+    font-weight: bold;
+}
+.credits{
+    font-family: poppins;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
 }
